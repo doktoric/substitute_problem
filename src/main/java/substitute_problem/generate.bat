@@ -1,0 +1,1 @@
+xjc -d ..\ -p substitute_problem.generated sample.xsd

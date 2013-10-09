@@ -1,0 +1,23 @@
+<items xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="sample.xsd">
+    <product>
+        <number>999</number>
+        <name>Special Seasonal</name>
+    </product>
+    <product xsi:type="ShirtType">
+        <number>557</number>
+        <name>Short-Sleeved Linen Blouse</name>
+        <size>10</size>
+        <color value="blue"/>
+    </product>
+
+    <product xsi:type="HatType">
+        <number>563</number>
+        <name>Ten-Gallon Hat</name>
+        <size>L</size>
+    </product>
+
+    <product xsi:type="UmbrellaType">
+        <number>443</number>
+        <name>Deluxe Golf Umbrella</name>
+    </product>
+</items>
